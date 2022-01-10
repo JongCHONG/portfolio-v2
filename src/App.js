@@ -25,7 +25,7 @@ const Container = styled.div`
 `
 const Right = styled.div`
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgba(0, 0, 0, 0.1);
   min-height: 100vh;
   color: white;
 `
@@ -55,7 +55,6 @@ const Logo = styled.div`
 const App = () => {
   return (
     <div>
-      <Menu />
       <Background>
         <Container>
           <Left>
@@ -67,6 +66,7 @@ const App = () => {
               Recherche de stage en Développeur Full Stack
             </Logo>
           </Left>
+          <Menu />
           <Right>
             <BrowserRouter>
               <Routes>

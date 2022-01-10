@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import styled from "styled-components"
 
@@ -26,6 +27,7 @@ const Content = styled.p`
 const Home = () => {
   return (
     <div>
+      <Link to="/">test</Link>
       <About>
         <Title>
           A propos de moi
